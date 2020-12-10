@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario</title>
+		<link rel="stylesheet" type="text/css" href="styleCompasCompany.css"/>
+	</head>
+	<body>
+		<div class="form"><
+			<form action= "guardar.php" method="POST">
+				<h1 style="background-color:#F30505;">Formulario</h1>
+				<li><span style="font-size:85%;"><b><h2>Primero, inserte su ID de Encuestado</h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="IdEncuestado" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>1. Que opina de nosotros como empresa?</h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="Respuesta1" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>2. Que opina de los negocios que promocionan productos?</h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="Respuesta2" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>3. Cree que nuestro servicio es "util"?</h2></b></span></li>
+				<br>
+				<label><input type="radio" name="Respuesta3" value="Si"><p> Si, y lo usaria mucho</p><label>
+				<label><input type="radio" name="Respuesta3" value="Tal vez"><p> Tal vez, es bueno pero no lo usaria dia a dia</p></label>
+				<label><input type="radio" name="Respuesta3" value="No"><p> No, creo que es inservible</p></label>
+				<br>
+				<li><span style="font-size:85%;"><b><h2>4. Usaria nuestro servicio?<h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="Respuesta4" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>5. Que opina de nuestros trabajadores?</h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="Respuesta5" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>6. Que mejoraria del sitio web?</h2></b></span></li>
+				<br>
+				<label><input style="font-size: 40px;" type="radio" name="Respuesta6" value="MejorVista"><p> Mejor Diseño</p></label>
+				<label><input style="font-size: 40px;" type="radio" name="Respuesta6" value="MasColorido"><p> Mas Colorido</p></label>
+				<label><input style="font-size: 40px;" type="radio" name="Respuesta6" value="MasProductos"><p> Mas Productos</p></label>
+				<br>
+				<li><span style="font-size:85%;"><b><h2>7. Que agregarias a nuestra empresa?</h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="Respuesta7" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>8. Que quitaria a nuestra empresa?</h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="Respuesta8" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>9. Le gustaria trabajar con nosotros?</h2></b></span></li>
+				<br>
+				<input type="text" size="50" name="Respuesta9" placeholder="Respuesta">
+				<br>
+				<li><span style="font-size:85%;"><b><h2>10. Le gustan los productos que promocionamos?</h2></b></span></li>
+				<br>
+				<select name="Respuesta10">
+					<option>Todos</option>
+					<option>La Mayoria</option>
+					<option>Solo Algunos</option>
+					<option>Ninguno</option>
+				</select>
+				<br>
+				<h2>Enviar Respuestas:</h2>
+				<input type="submit" value="Enviar"></br></br></br>
+				<input type="button" onclick="location.href='./index.html'" value="Regresar a la Pagina Principal">
+				</br> </br> </br> </br> </br> </br> </br> </br> </br>
+			</form>
+		</div>	
+	</body>
+	<footer style="background-color:#F30505;">
+		<h2 style="color:white;">Gracias por consultar nuestro formulario.</h2>
+	</footer>
+</html>

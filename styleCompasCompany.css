@@ -1,0 +1,106 @@
+body {
+  background-color: white;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 5px;
+}
+
+h1{
+    color: white;
+	font-family: times new roman;
+	font-size: 30px;
+	text-align: center;
+	background-color: #C20505;
+}
+
+h2{
+	font-size: 40px;
+	font-family: times new roman;
+	color: black;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
+  color: black;
+}
+
+th {
+  border: 2px solid #8c6b48;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+  border: 4px solid #8c6b48;
+}
+
+td {
+  border: 2px solid #8c6b48;
+  width: 250px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  background-color: #C20505;
+  z-index: 5;
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #C20505;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+ul{
+	font-size: 30px;
+	font-family: arial;
+	color: black;
+}
+
+image{
+	border-color: #C20505;
+	border-width: 12px;
+	border-style: solid;
+	border-radius: 0%;
+	width: 500px;
+}
+
+p{
+	font-size: 25px;
+	font-family: times new roman;
+	color: black;
+}
+
+button{
+	width: 350px;
+}
+
+/*Creado por Luis Angel Rosas Bocardo, 
+esta pagina esta destinada para juntar 
+todo lo que tenga que ver con el estilo, 
+tamaño, color y edicion de las paginas
+ para que estas mismas paginas puedan 
+ recurrir a este codigo para darles su 
+ estilo y asi no abarcar tanto espacio 
+ en las hojas de codigo*/
